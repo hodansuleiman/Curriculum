@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.red{
+background-color: #ea9e99;
+float: left;
+margin-right: 14px;
+width: calc(30% - 14px);
+}
+  
+.blue{
+    background-color: #9fc4f8;
+    float: left;
+    width: 70%;
+}
+.yellow{
+    background-color: #ffe498;
+}
+
+.box{
+border: 2px solid #444;
+height: 80px;
+}
+
+.cf:before,
+.cf:after {
+content: "";
+display: table;
+}
+
+.cf:after{
+  clear: both;
+}
+
+.container{
+    margin: 14px 0;
+}
