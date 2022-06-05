@@ -1,0 +1,43 @@
+.y-wrap{
+background-color: aliceblue;
+margin: 0 auto;
+width: 90%;
+}
+
+.stats-block {
+background-color: cornsilk;
+}
+
+.stats-block__stats {
+    float: left;
+}
+
+.stats-block__stats--title{
+    width: 30%;
+}
+
+.stats-block__stats--data{
+    width: 70%;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.light-gray {
+    color: #aaa;
+}
+
+.header-line{
+    background-color: #165e3a;
+    height: 6px;
+}
+
+/*
+
+BEM (Block-Element-Modifier)
+block_element--modifier
+
+*/
