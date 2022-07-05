@@ -1,0 +1,74 @@
+.numbers{
+    display: flex;
+    flex: 1 3 auto;
+    flex-wrap: wrap;
+    max-width: 75%;
+}
+
+
+.numbers div{
+    background-color: #eee;
+    cursor: pointer;
+    flex: 0 1 16%;
+    font-size: 1.5rem;
+     margin: 10px;
+     padding:20px;
+     text-align: center;
+}
+
+.display{
+    align-items: center;
+    border: 1px solid #999;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: flex-end;
+    min-height: 36px;
+    padding: 6px;
+}
+
+.operators{
+    display:flex;
+    font-size:2rem;
+    justify-content: space-between;
+   
+}
+.operators div{
+    border: 1px solid crimson;
+    background-color: aliceblue;
+    cursor:pointer;
+    flex: 0 1 20%;
+     margin: 10px 0;
+     padding:12px 0;
+     text-align: center;
+     width: 104px;
+} 
+
+.equals{
+align-items: center;;
+background-color: #4d90fe;
+color: white;
+display: flex;
+flex: 0 1 25%;
+font-size: 2rem;
+justify-content: center;
+margin: 10px 0;
+}
+
+.keypad{
+display: flex;
+}
+
+.conatiner{
+    border: 1px solid #ddd;
+    color: #333;
+    font-family: sans-serif;
+    height: 520px;
+    margin: 20px auto;
+    padding: 50px;
+    width: 500px;
+}
+
+.y-inner-wrap{
+    margin 0 auto;
+    width: 456px;
+}
