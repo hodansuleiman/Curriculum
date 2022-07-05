@@ -1,0 +1,26 @@
+body{
+   
+}
+
+.digits-container{
+    display: flex;
+}
+
+
+.digits{
+    display:flex;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+}
+
+.digits div{
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    flex: 1 0 32%;
+    max-width: 102px;
+
+}
+
+.equals{
+    flex: 1 0 auto;
+}
