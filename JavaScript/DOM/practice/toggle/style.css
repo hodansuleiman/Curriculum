@@ -1,0 +1,14 @@
+.container{
+    font-family: sans-serif;
+}
+
+
+.question{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.answer{
+    font-family: monospace;
+    margin-top: 14px;
+}

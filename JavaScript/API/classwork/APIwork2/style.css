@@ -1,0 +1,13 @@
+* {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+
+.book-container{
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
