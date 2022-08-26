@@ -1,0 +1,14 @@
+<header>
+    <div class="y-wrap">
+<% if(isAuthenticated) { %>
+    <button id="auth" data-type="logout">Logout</button>
+<% } else { %> 
+    <button id="auth" data-type="login">Login</button>
+<% } %>
+<ul class="navs">
+    <% navs.forEach(nav => { %>
+        <li><a href="<%= nav.toLowerCase() %>"><%= nav %></a></li>
+    <% }) %>
+</ul>
+</div>
+</header>
