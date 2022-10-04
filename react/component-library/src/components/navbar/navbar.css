@@ -1,0 +1,18 @@
+#navs{
+background-color: #A8DDDD; ;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5rem;
+position: sticky;
+overflow: hidden;
+cursor: pointer;
+}
+  
+
+a{
+    color: white;
+    float:left;
+    padding: 15px;
+    text-decoration: none;
+}
+
+  
